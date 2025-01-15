@@ -18,11 +18,15 @@ def test_part1():
     assert solution == 18
 
 def test_part2():
-    input = """3   4
-               4   3
-               2   5
-               1   3
-               3   9
-               3   3"""
+    input = """MMMSXXMASM
+               MSAMXMSMSA
+               AMXSXMAAMM
+               MSAMASMSMX
+               XMASAMXAMM
+               XXAMMXXAMA
+               SMSMSASXSS
+               SAXAMASAAA
+               MAMMMXMMMM
+               MXMXAXMASX"""
     solution = part2(input)
-    assert solution == 31
+    assert solution == 9
